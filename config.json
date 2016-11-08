@@ -1,0 +1,17 @@
+{
+  "wordpressUserId":3, // YOUR_WORDPRESS_USER_ID (`wp_users` table `ID` field)
+  "syncFeedPrefix":":",
+  "shareCategoryId":10, // YOUR_SYNC_POST_CATEGORY_ID_BY_WORDPRESS (`wp_terms` table `term_id` field)
+  "facebook" : {
+    "userId":"YOUR_FACEBOOK_USER_ID",
+    "appId":"YOUR_FACEBOOK_APP_ID",
+    "appSecret":"YOUR_FACEBOOK_APP_SECRET"
+  },
+  "database":{
+    "user":"YOUR_DB_USER",
+    "password":"YOUR_DB_PASSWORD",
+    "ip":"YOUR_DB_IP",
+    "port":"YOUR_DB_PORT",
+    "schema":"YOUR_DB_SCHEMA"
+  }
+}
